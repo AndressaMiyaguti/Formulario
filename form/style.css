@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #5e32a8;
+    color: #fff;
+}
+
+.container {
+    max-width: 60%;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+#title {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+#description {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#survey {
+    background-color: #331b5c;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px #942cf7;
+}
+
+/* #survey input {
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+} */
+#name,#email,#number {
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#dropdown {
+    border-radius: 5px;
+    height: 2.4rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;    
+}
+.radioButtons label,.radioButtons input {
+    margin-top: 1rem;
+    width: 20px;
+}
+.checkButtons{
+    margin-top: 1rem;  
+}
+.checkButtons label{
+white-space: nowrap;/* Para não ter quebra de linha */
+margin-right: 0.5rem;
+}
+.checkButtons p{
+    padding-bottom: 0.5rem;
+}
+.textArea p{
+    margin-top:1rem ;
+    margin-bottom: 0.5rem;
+}
+#another-series{
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    height: 2rem;
+    border: 1px solid white;
+    background-color: rgba(21, 12, 43, 0.945);
+    border-radius: 5px;
+    color: white;
+margin-top: 0.5rem;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa sobre series</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Pesquisa sobre series</h1>
+        <p id="description">
+            Ésta é uma pesquisa para saber quais foram as series mais assistidas na quarentena
+        </p>
+
+        <form id="survey"><!-- survey PALAVRA USADA PARA PESQUISA -->
+            <label id="name-label" for="name">Nome</label>
+            <input id="name" type="text" name="name" placeholder="Digite seu nome "required/>
+
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Digite seu email"/>
+
+            <label id="number-label" for="number">Idade</label>
+            <input id="number" type="number" name="number"placeholder="Digite a sua idade" min="18" max="120" required/>
+
+            <label id="drop-label" for="dropdown">Qual o seu genero favorito</label>
+            <select name="genre" id="dropdown">
+                <option disabled selected value> - </option>
+                <option value="terror">Terror</option>
+                <option value="sitcom">Sitcom</option>
+                <option value="anime">Anime</option>
+                <option value="distopico">Distópico</option>
+                <option value="musical">Musical</option>
+                 <option value="drama">Drama</option>
+                 <option value="medico">Médico</option>
+                 <option value="misterio">Mistério</option>
+            </select>
+
+            <div class="radioButtons">
+                <p>Qual é o melhor horário de assistir uma série?</p>
+
+                <input name="time" value="manha"type="radio"/>
+                <label>Manha</label>
+                <input name="time" value="tarde" type="radio"/>
+                <label>Tarde</label>
+                <input name="time" value="noite" type="radio"/>
+                <label>Noite</label>
+            </div>
+
+            <div class="checkButtons">
+                <p>Séries assistidas</p>
+                <label>
+                    <input name="favorito" value="greysanatomy" type="checkbox"/>
+                    Grey's Anatomy
+                </label>
+                <label>
+                    <input name="favorito" value="narutoshippuden" type="checkbox"/>
+                    Naruto Shippuden
+                </label>
+                <label>
+                    <input name="favorito" value="theoffice" type="checkbox"/>
+                    The Office
+                </label>
+                <label>
+                    <input name="favorito" value="thewalkingdead" type="checkbox"/>
+                    The Walkin Dead
+                </label>
+                <label>
+                    <input name="favorito" value="dragonball" type="checkbox"/>
+                    Dragon Ball
+                </label>
+                <label>
+                    <input name="favorito" value="thebigbangteory" type="checkbox"/>
+                    The Big Bang Theory
+                </label>
+                <label>
+                    <input name="favorito" value="teenwolf" type="checkbox"/>
+                     Teen Wolf
+                </label>
+                <label>
+                    <input name="favorito" value="cobrakai" type="checkbox"/>
+                    Cobra Kai
+                </label>
+                <label>
+                    <input name="favorito" value="rickandmorty" type="checkbox"/>
+                    Rick and Morty
+                </label>
+                <label>
+                    <input name="favorito" value="thewitcher" type="checkbox"/>
+                    The Witcher
+                </label>
+                <label>
+                    <input name="favorito" value="vanhelsing" type="checkbox"/>
+                    Van Helsing
+                </label>
+                <label>
+                    <input name="favorito" value="oultimodragao" type="checkbox"/>
+                    O Último Dragão
+                </label>
+                <label>
+                    <input name="favorito" value="oatirador" type="checkbox"/>
+                    O Atirador
+                </label>
+                <label>
+                    <input name="favorito" value="marvelojusticeiro" type="checkbox"/>
+                    Marvel - O Justiceiro
+                </label>
+                <label>
+                    <input name="favorito" value="expressodoamanha" type="checkbox"/>
+                    Expresso do Amanhã
+                </label>
+                <label>
+                    <input name="favorito" value="arrow" type="checkbox"/>
+                    Arrow
+                </label>
+                <label>
+                    <input name="favorito" value="marveldemolidor" type="checkbox"/>
+                    Marvel - Demolidor
+                </label>
+                <label>
+                    <input name="favorito" value="sombraeossos" type="checkbox"/>
+                    Sombra e Ossos
+                </label>
+                <label>
+                    <input name="favorito" value="perdidosnoespaço" type="checkbox"/>
+                    Perdidos no Espaço
+                </label>
+                <label>
+                    <input name="favorito" value="startrekdiscovery" type="checkbox"/>
+                    Star Trek: Discovery
+                </label>
+                <label>
+                    <input name="favorito" value="narcosmexico" type="checkbox"/>
+                    Narcos: México
+                </label>
+                <label>
+                    <input name="favorito" value="outerbanks" type="checkbox"/>
+                    Outer Banks
+                </label>
+                <label>
+                    <input name="favorito" value="oultimoguardiao" type="checkbox"/>
+                    O Último Guardião
+                </label>
+                <label>
+                    <input name="favorito" value="barbaros" type="checkbox"/>
+                    Bárbaros
+                </label>
+                <label>
+                    <input name="favorito" value="locke&key" type="checkbox"/>
+                    Locke & Key
+                </label>
+                <label>
+                    <input name="favorito" value="jornadanasestrelas" type="checkbox"/>
+                    Jornada nas Estrelas
+                </label>
+                <label>
+                    <input name="favorito" value="octoberfaction" type="checkbox"/>
+                    October Faction
+                </label>
+                <label>
+                    <input name="favorito" value="theflash" type="checkbox"/>
+                    The Flash
+                </label>
+                <label>
+                    <input name="favorito" value="sweettooth" type="checkbox"/>
+                    Sweet Tooth
+                </label>
+                <label>
+                    <input name="favorito" value="elchapo" type="checkbox"/>
+                    El Chapo
+                </label>
+                <label>
+                    <input name="favorito" value="narcos" type="checkbox"/>
+                    Narcos
+                </label>
+                <label>
+                    <input name="favorito" value="theumbrellaacademy" type="checkbox"/>
+                    The Umbrella Academy
+                </label>
+                <label>
+                    <input name="favorito" value="supergirl" type="checkbox"/>
+                    Super Girl
+                </label>
+                <label>
+                    <input name="favorito" value="thelastkingdom" type="checkbox"/>
+                    The Last Kingdom
+                </label>
+                <label>
+                    <input name="favorito" value="kingdom" type="checkbox"/>
+                    Kingdom
+                </label>
+                <label>
+                    <input name="favorito" value="cacadoresdedemonios" type="checkbox"/>
+                    Caçadores de Demônios
+                </label>
+                <label>
+                    <input name="favorito" value="iris" type="checkbox"/>
+                    Iris
+                </label>
+                <label>
+                    <input name="favorito" value="blacksummer" type="checkbox"/>
+                    Black Summer
+                </label>
+                <label>
+                    <input name="favorito" value="osindomaveis" type="checkbox"/>
+                    Os Indomáveis
+                </label>
+                <label>
+                    <input name="favorito" value="asaventurasdemerlin" type="checkbox"/>
+                    As Aventuras de Merlin
+                </label>
+                <label>
+                    <input name="favorito" value="the handsmaidstale" type="checkbox" />
+                    The Handsmaid's Tale
+                </label>
+            </div>
+            <div class="textArea">
+                <p>Outras séries</p>
+
+                <textarea id="another-series" name="another-series" placeholder="Digite o nome de outras séries que você assistiu"></textarea>
+            </div>
+
+            <button type="submit" >Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
